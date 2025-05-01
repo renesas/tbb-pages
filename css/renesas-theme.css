@@ -1,0 +1,24 @@
+/* renesas-theme.css */
+
+:root {
+    --renesas-blue: #2A289D;
+    --renesas-blue-hover: #4543CC;
+    --renesas-white: #FFFFFF;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: var(--renesas-blue);
+    color: var(--renesas-white);
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
